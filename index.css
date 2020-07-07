@@ -11,6 +11,8 @@ body{
 	border-radius:5rem;
 	animation:run 2.8s .3s infinite;
 	transform:translate(-50%, -50%);
+	text-align:center;
+	line-height:9rem;
 }
 
 @keyframes run{
@@ -23,6 +25,7 @@ body{
 			   inset -1px -1px -1px  #ff0,
 			   inset -1px -1px -1px  #f00,
 			   inset -1px -1px -1px  #ff0;
+	color:black;
 	}
 	50%{
 		box-shadow:10px 10px 35px  #ff0,
@@ -33,6 +36,7 @@ body{
 				   inset 10px -10px 85px  #ff0,
 				   inset -10px 10px 85px  #f00,
 				   inset -10px -10px 85px  #ff0;
+	color:white;
 	}
 	form{
 		box-shadow:-1px -1px -1px  #ff0,
@@ -43,5 +47,6 @@ body{
 			   inset -1px -1px -1px  #ff0,
 			   inset -1px -1px -1px  #f00,
 			   inset -1px -1px -1px  #ff0;
+	color:black;
 	}
 }
