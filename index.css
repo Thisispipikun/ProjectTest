@@ -1,4 +1,47 @@
-*{
+body{
 	margin:0;
 	padding:0;
+}
+.circle{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:9rem;
+	height:9rem;
+	border-radius:5rem;
+	animation:run 2.8s .3s infinite;
+	transform:translate(-50%, -50%);
+}
+
+@keyframes run{
+	to{
+		box-shadow:-1px -1px -1px  #ff0,
+			   	   -1px --1px -1px  #f00,
+			   	   -1px -1px -1px  #ff0,
+			   	   -1px -1px -1px  #f00,
+				   inset -1px -1px -1px  #f00,
+			   inset -1px -1px -1px  #ff0,
+			   inset -1px -1px -1px  #f00,
+			   inset -1px -1px -1px  #ff0;
+	}
+	50%{
+		box-shadow:10px 10px 35px  #ff0,
+				   10px -10px 35px  #f00,
+				   -10px 10px 35px  #ff0,
+				   -10px -10px 35px  #f00,
+				   inset 10px 10px 85px  #f00,
+				   inset 10px -10px 85px  #ff0,
+				   inset -10px 10px 85px  #f00,
+				   inset -10px -10px 85px  #ff0;
+	}
+	form{
+		box-shadow:-1px -1px -1px  #ff0,
+			   	   -1px --1px -1px  #f00,
+			   	   -1px -1px -1px  #ff0,
+			   	   -1px -1px -1px  #f00,
+				   inset -1px -1px -1px  #f00,
+			   inset -1px -1px -1px  #ff0,
+			   inset -1px -1px -1px  #f00,
+			   inset -1px -1px -1px  #ff0;
+	}
 }
